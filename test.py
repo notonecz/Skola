@@ -30,9 +30,9 @@ if 1 <= mesic <= 12:
 
         if mesic == 3:
             print("Březen")
-        if mesic == 4:
+        elif mesic == 4:
             print("Duben")
-        if mesic == 5:
+        elif mesic == 5:
             print("Květen")
 
         print("Jarní měsíc")
