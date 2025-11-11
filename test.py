@@ -30,9 +30,9 @@ if 1 <= mesic <= 12:
 
         if mesic == 3:
             print("Březen")
-        elif mesic == 4:
+        if mesic == 4:
             print("Duben")
-        elif mesic == 5:
+        if mesic == 5:
             print("Květen")
 
         print("Jarní měsíc")
@@ -56,6 +56,7 @@ if 1 <= mesic <= 12:
             print("Listopad")
 
         print("Podzminí měsíc")
+
     elif 1 <= mesic <= 2 or mesic == 12:
 
         if mesic == 1:
@@ -66,5 +67,12 @@ if 1 <= mesic <= 12:
             print("Prosinec")
 
         print("Zimní měsíc")
+
+    if 1 <= mesic <= 6:
+        print("První pololetí")
+
+    elif 7 <= mesic <= 12:
+        print("Druhe pololetí")
+
 else:
     print("Neplatný měsíc")
